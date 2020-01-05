@@ -3,3 +3,13 @@
 ################################################################################
 
 /.vs/AuthServerCore/config/applicationhost.config
+/.vs/AuthServerCore/v16/Server/sqlite3/db.lock
+/.vs/AuthServerCore/v16/Server/sqlite3/storage.ide
+/.vs/AuthServerCore/v16/Server/sqlite3/storage.ide-shm
+/.vs/AuthServerCore/v16/Server/sqlite3/storage.ide-wal
+/AuthServerIds4/bin/Debug/netcoreapp3.0
+/AuthServerIds4/obj
+/ClientCredential/client/AuthServerIds4.ClientCredential.MvcClient/bin/Debug/netcoreapp3.0
+/ClientCredential/client/AuthServerIds4.ClientCredential.MvcClient/obj
+/ClientCredential/resource/AuthServerIds4.ClientCredential.Api/bin/Debug/netcoreapp3.0
+/ClientCredential/resource/AuthServerIds4.ClientCredential.Api/obj
