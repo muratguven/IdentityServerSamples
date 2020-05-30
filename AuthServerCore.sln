@@ -13,7 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{664938
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthServerIds4.ClientCredential.Api", "ClientCredential\resource\AuthServerIds4.ClientCredential.Api\AuthServerIds4.ClientCredential.Api.csproj", "{12C21DC9-5C75-45E1-8CEA-1D2E5052E937}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServerIds4.ClientCredential.MvcClient", "ClientCredential\client\AuthServerIds4.ClientCredential.MvcClient\AuthServerIds4.ClientCredential.MvcClient.csproj", "{CDB737AE-3344-4585-A815-7F2C39BBD942}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthServerIds4.ClientCredential.MvcClient", "ClientCredential\client\AuthServerIds4.ClientCredential.MvcClient\AuthServerIds4.ClientCredential.MvcClient.csproj", "{CDB737AE-3344-4585-A815-7F2C39BBD942}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsAuth", "WindowsAuth", "{00CA7BFE-29CB-4CBB-8862-A4FC6B895695}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "clients", "clients", "{B98E67BB-8E55-4EB7-8000-9449770F56AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resource", "resource", "{CD93839C-C56E-4033-8876-330B0A8133A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServerIds4.WindowsAuth.Api", "WindowsAuth\resource\AuthServerIds4.WindowsAuth.Api\AuthServerIds4.WindowsAuth.Api.csproj", "{F0A6B148-0720-4328-8EA1-223D9CCF03EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServerIds4.WindowsAuth.Client.Mvc", "WindowsAuth\clients\AuthServerIds4.WindowsAuth.Client.Mvc\AuthServerIds4.WindowsAuth.Client.Mvc.csproj", "{A9D7A7A5-8C65-4C71-9177-495C88BDEAF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +71,30 @@ Global
 		{CDB737AE-3344-4585-A815-7F2C39BBD942}.Release|x64.Build.0 = Release|Any CPU
 		{CDB737AE-3344-4585-A815-7F2C39BBD942}.Release|x86.ActiveCfg = Release|Any CPU
 		{CDB737AE-3344-4585-A815-7F2C39BBD942}.Release|x86.Build.0 = Release|Any CPU
+		{F0A6B148-0720-4328-8EA1-223D9CCF03EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A6B148-0720-4328-8EA1-223D9CCF03EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A6B148-0720-4328-8EA1-223D9CCF03EA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F0A6B148-0720-4328-8EA1-223D9CCF03EA}.Debug|x64.Build.0 = Debug|Any CPU
+		{F0A6B148-0720-4328-8EA1-223D9CCF03EA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F0A6B148-0720-4328-8EA1-223D9CCF03EA}.Debug|x86.Build.0 = Debug|Any CPU
+		{F0A6B148-0720-4328-8EA1-223D9CCF03EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A6B148-0720-4328-8EA1-223D9CCF03EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0A6B148-0720-4328-8EA1-223D9CCF03EA}.Release|x64.ActiveCfg = Release|Any CPU
+		{F0A6B148-0720-4328-8EA1-223D9CCF03EA}.Release|x64.Build.0 = Release|Any CPU
+		{F0A6B148-0720-4328-8EA1-223D9CCF03EA}.Release|x86.ActiveCfg = Release|Any CPU
+		{F0A6B148-0720-4328-8EA1-223D9CCF03EA}.Release|x86.Build.0 = Release|Any CPU
+		{A9D7A7A5-8C65-4C71-9177-495C88BDEAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D7A7A5-8C65-4C71-9177-495C88BDEAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D7A7A5-8C65-4C71-9177-495C88BDEAF7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A9D7A7A5-8C65-4C71-9177-495C88BDEAF7}.Debug|x64.Build.0 = Debug|Any CPU
+		{A9D7A7A5-8C65-4C71-9177-495C88BDEAF7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A9D7A7A5-8C65-4C71-9177-495C88BDEAF7}.Debug|x86.Build.0 = Debug|Any CPU
+		{A9D7A7A5-8C65-4C71-9177-495C88BDEAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D7A7A5-8C65-4C71-9177-495C88BDEAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9D7A7A5-8C65-4C71-9177-495C88BDEAF7}.Release|x64.ActiveCfg = Release|Any CPU
+		{A9D7A7A5-8C65-4C71-9177-495C88BDEAF7}.Release|x64.Build.0 = Release|Any CPU
+		{A9D7A7A5-8C65-4C71-9177-495C88BDEAF7}.Release|x86.ActiveCfg = Release|Any CPU
+		{A9D7A7A5-8C65-4C71-9177-495C88BDEAF7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +104,10 @@ Global
 		{66493887-2632-4D92-BD68-862A4482F7CA} = {3B80A3BA-2681-4F71-8FDD-9096CDCE123F}
 		{12C21DC9-5C75-45E1-8CEA-1D2E5052E937} = {9544E4F8-6113-4D4D-8460-299D9B2F2872}
 		{CDB737AE-3344-4585-A815-7F2C39BBD942} = {66493887-2632-4D92-BD68-862A4482F7CA}
+		{B98E67BB-8E55-4EB7-8000-9449770F56AF} = {00CA7BFE-29CB-4CBB-8862-A4FC6B895695}
+		{CD93839C-C56E-4033-8876-330B0A8133A4} = {00CA7BFE-29CB-4CBB-8862-A4FC6B895695}
+		{F0A6B148-0720-4328-8EA1-223D9CCF03EA} = {CD93839C-C56E-4033-8876-330B0A8133A4}
+		{A9D7A7A5-8C65-4C71-9177-495C88BDEAF7} = {B98E67BB-8E55-4EB7-8000-9449770F56AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA100276-79C1-4AFE-83F0-45477535591B}

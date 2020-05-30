@@ -89,7 +89,8 @@ namespace IdentityServer4.Quickstart.UI
         public async Task<IActionResult> Callback()
         {
             // read external identity from the temporary cookie
-            var result = await HttpContext.AuthenticateAsync(IdentityConstants.ExternalScheme);
+            //var result = await HttpContext.AuthenticateAsync(IdentityConstants.ExternalScheme);
+            var result = await HttpContext.AuthenticateAsync(IdentityServerConstants.ExternalCookieAuthenticationScheme);
             if (result?.Succeeded != true)
             {
                 throw new Exception("External authentication error");
@@ -219,6 +220,7 @@ namespace IdentityServer4.Quickstart.UI
 
             // find external user
             var user = await _userManager.FindByLoginAsync(provider, providerUserId);
+
 
             return (user, provider, providerUserId, claims);
         }

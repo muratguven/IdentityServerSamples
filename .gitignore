@@ -13,3 +13,4 @@
 /ClientCredential/client/AuthServerIds4.ClientCredential.MvcClient/obj
 /ClientCredential/resource/AuthServerIds4.ClientCredential.Api/bin/Debug/netcoreapp3.0
 /ClientCredential/resource/AuthServerIds4.ClientCredential.Api/obj
+appsettings.json
